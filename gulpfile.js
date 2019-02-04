@@ -31,17 +31,17 @@ gulp.task('default', [
 
 //script paths
 var jquery = 'public/js/core/jquery.3.2.1.min.js',
-    popper = 'public/js/plugins/popper.min.js',
     lazy = 'public/js/plugins/jquery.lazyload.min.js',
     bootstrap = 'public/js/core/bootstrap.min.js',
     tether = 'public/js/core/tether.min.js',
     DatePicker = 'public/js/plugins/bootstrap-datepicker.js',
     bsSwitch = 'public/js/plugins/bootstrap-switch.js',
     slider = 'public/js/plugins/nouislider.min.js',
+    kit = 'public/js/core/now-ui-kit.js',
     jsDest = 'public/js/dist/';
 
 gulp.task('scripts', function() {
-    return gulp.src([jquery, ,popper, lazy, tether, bootstrap, DatePicker, bsSwitch, slider])
+    return gulp.src([jquery, lazy, tether, bootstrap, DatePicker, bsSwitch, slider, kit])
         .pipe(concat('scripts.js'))
         .pipe(gulp.dest(jsDest))
         .pipe(rename('scripts.min.js'))

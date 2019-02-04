@@ -1,28 +1,21 @@
 <body class="index-page sidebar-collapse">
-  <nav color-on-scroll="50" class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent">
-    <div class="container">
-      <div class="navbar-translate">
+  <nav color-on-scroll="50" class="navbar bg-primary fixed-top navbar-transparent">
         <a href="#" rel="tooltip" title="" data-placement="bottom" class="navbar-brand">eSKay Arts Collective</a>
-        <button type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
-      </div>
-      <div id="navigation" data-nav-image="/img/blurred-image-1.jpg" class="collapse navbar-collapse justify-content-end">
-        <ul class="navbar-nav">
-          <a rel="tooltip" title="Support US" data-placement="bottom" href="https://thefield.org/sa/619617" class="nav-link">
+          <a rel="tooltip" title="Support US" data-placement="bottom" href="https://thefield.org/sa/619617" class="nav-link justify-content-end">
             <p>Support Us</p>
           </a>
-          <a rel="tooltip" title="Performances and Pictures" data-placement="bottom" href="#videos" class="nav-link">
+          <a rel="tooltip" title="Performances and Pictures" data-placement="bottom" href="#videos" class="nav-link justify-content-end">
             <p>Media</p>
           </a>
-          <a rel="tooltip" title="Come See Us Perform" data-placement="bottom" href="#calander" class="nav-link">
+          <a rel="tooltip" title="Come See Us Perform" data-placement="bottom" href="#calander" class="nav-link justify-content-end">
             <p>Calendar</p>
           </a>
-          <a rel="tooltip" title="Get in Contact With Us" data-placement="bottom" href="#contact" class="nav-link">
+          <a rel="tooltip" title="Get in Contact With Us" data-placement="bottom" href="#contact" class="nav-link justify-content-end">
             <p>Contact US</p>
-          </a><a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/eSKayArtsCollective/?ref=aymt_homepage_panel" target="_blank" class="nav-link"><i class="fab fa-facebook-square"></i>
-            <p class="hidden-lg-up">Facebook</p></a><a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/eskayartscollective/" target="_blank" class="nav-link"><i class="fab fa-instagram"></i>
-            <p class="hidden-lg-up">Instagram</p></a></ul>
-      </div>
-    </div>
+          </a><a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/eSKayArtsCollective/?ref=aymt_homepage_panel" target="_blank" class="nav-link justify-content-end"><i class="fab fa-facebook-square"></i>
+            <p class="hidden-lg-up">Facebook</p></a><a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/eskayartscollective/" target="_blank" class="nav-link justify-content-end"><i class="fab fa-instagram"></i>
+            <p class="hidden-lg-up">Instagram</p></a>
+  </div>
   </nav>
   <!-- End Navbar-->
   <div class="wrapper">
@@ -132,7 +125,7 @@
           </div>
         </div><br/><br/>
         <div class="row justify-content-md-center sharing-area text-center">
-          <div class="text-center col-md-12 col-lg-8">
+          <div class="text-center col-md-12 col-lg-8" data-aos="zoom-in" data-aos-duration="3000">
             <h3>Legal</h3>
             <h5>eSKay Arts Collective- is a sponsored artist with Performance Zone Inc (dba The Field), a not-for-profit, tax-exempt, 501(c)(3) organization serving the performing arts community. Contributions to The Field earmarked for Shannon Reynolds are tax-deductible to the extent allowed by law. For more information about The Field contact: The Field, 75 Maiden Lane, Suite 906 New York, NY 10038, phone: 212-691-6969; or for our national charities registration, </h5>
             <a href="https://thefield.org/sa/619617" target="_blank">
@@ -196,6 +189,7 @@
           let artistsSection = document.getElementById('artists');
           let foundersSection = document.getElementById('founders');
           var cardParent = document.createElement('div');
+          cardParent.setAttribute("data-aos","zoom-in");
           cardParent.className = "c-4";
           var card = document.createElement('aside');
           card.className = "artist-card";
@@ -238,7 +232,7 @@
           bioNav.appendChild(bioImage);
           bioNav.appendChild(close);
 
-          if (element.title === "Co-Founder") {
+          if (element.title === "Co-Founder/ Artistic Directors") {
             //co-founder
             foundersSection.appendChild(cardParent);
             foundersSection.appendChild(bioNav);
@@ -291,13 +285,17 @@
           }, 3000);
         });
         function openNav(id) {
-            document.getElementById(id).style.width = "100%";
+            document.getElementById(id).style.width = "70%";
+            document.getElementById(id).style.height = "90%";
             document.getElementById(id).style.zIndex = 2000;
+            document.body.style.overflow = "hidden";
         }
 
         function closeNav(id) {
             document.getElementById(id).style.width = "0";
+            document.getElementById(id).style.height = "0";
             document.getElementById(id).style.zIndex = 0;
+            document.body.style.overflow = "unset";
 
         }
 
@@ -311,6 +309,7 @@
         $(document).ready(function() {
           // the body of this function is in assets/js/now-ui-kit.js
             nowuiKit.initSliders();
+            AOS.init();
 
         });
       </script>

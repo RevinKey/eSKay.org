@@ -1,6 +1,26 @@
 module.exports = {
   sources: [
     {
+      src: '/img/Maiya_Elliott_SP_Brooklyn_2018_2630.jpg',
+      desc: 'Small Plates Brooklyn Oct. 2018, Photographer: Maya Elliot, Piece: Just Movement (New Name: A,C1/2)'
+    },{
+      src: '/img/Maiya_Elliott_SP_Brooklyn_2018_2639.jpg',
+      desc: 'Small Plates Brooklyn Oct. 2018, Photographer: Maya Elliot, Piece: Just Movement (New Name: A,C1/2)'
+    },{
+      src: '/img/Maiya_Elliott_SP_Brooklyn_2018_2663.jpg',
+      desc: 'Small Plates Brooklyn Oct. 2018, Photographer: Maya Elliot, Piece: Just Movement (New Name: A,C1/2)'
+    },
+    {
+      src: '/img/IMG_1600.JPG',
+      desc: 'Small Plates Virginia'
+    },{
+      src: '/img/IMG_1607.JPG',
+      desc: 'Small Plates Virginia'
+    },{
+      src: '/img/IMG_1645.JPG',
+      desc: 'Small Plates Virginia'
+    },
+    {
       src: '/img/DSC00068.jpg',
       desc: 'eSKay 2018'
     },{

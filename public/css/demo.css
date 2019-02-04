@@ -639,7 +639,7 @@ background-color: #ffc446;
 
 .sidenav {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: .5fr 1fr;
     grid-template-rows: auto 1fr;
     grid-gap: 1em;
     grid-template-areas: "image bio"
@@ -650,6 +650,9 @@ background-color: #ffc446;
     z-index: 1;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     background-color: lightgoldenrodyellow;
     overflow-x: hidden;
     transition: 0.5s;
