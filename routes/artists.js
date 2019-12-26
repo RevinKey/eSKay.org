@@ -13,6 +13,12 @@ module.exports = {
       links: '',
       image: 'img/IMG_2367.jpg'
     }, {
+      name: 'Nadia Khayrallah',
+      title: 'Dancer/Choreographer',
+      bio: 'Nadia Khayrallah is a dancer, choreographer, filmmaker, and writer. Since graduating from Columbia University with a B.A. in Dance and Psychology, she has performed with Gotham Dance Theater, Trainor Dance, Artists by Any Other Name, SHIFT Dance Collective, eSKay Arts Collective, the Cunningham Trust, and the musical artist Roxiny. Nadia has presented her choreography through Sacred Circle Theater Collective, Artists by Any Other Name, HATCH Presenting Series, and Fertile Ground. She has written for The Dance Enthusiast, The Huffington Post, Sukoon Magazine, and Reductress. Nadia is Communications Coordinator for the Dance/NYC Junior Committee, a group of young professionals creating conversation on social and economic issues in the field. www.nadiak.tk ',
+      links: '',
+      image: 'img/NadiaKhayrallah.jpg'
+    }, {
       name: 'Jennifer Jackson',
       title: 'Dancer/Choreographer',
       bio: 'Jennifer grew up in GA with extensive training in ballet, pointe, modern, jazz, and tap. She graduated with her BFA in Dance from Valdosta State University in 2013 with a focus in modern dance. She holds a P-12 Dance Education Certification and is the former dance director for Lamar Reese Magnet Elementary School of the Arts as well as KIPP Metro Atlanta Schools KWP. She has founded two school dance programs. Jennifer has worked and performed with a variety of professional dance companies in the Atlanta area including Xtensity Contemporary Dance Company, Room to Move Dance, Refuge Dance Company, Infinite Theatre Performing Company, MOTO Artis, and Withhart Dance Projects. Jennifer has taught and choreographed a variety of dance styles at dance studios throughout Georgia including Elite Atlanta Performers, Callanwolde Fine Arts Center, Footnotes Dance and Acrobatics, Georgia Stars Academy of Dance, Southwest Georgia Performing Arts, and Barefoot in Motion. She has participated in workshops and conventions from well-known choreographers and companies such as Tremaine, Ririe-Woodbury, Doug Caldwell, Zoetic Dance Ensemble summer sessions, Brooke Lipton, and more. Currently, Jennifer is teaching middle school dance in New York City. She is excited to be dancing and choreographing with eSKay Arts Collective.',
