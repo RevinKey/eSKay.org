@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'Shannon Reynolds',
       title: 'Co-Founder/ Artistic Directors',
-      bio: 'is a dance educator and arts administrator who graduated from Russell Sage College with a BA in health science and dance and her MPA from Mercy College. Shannon is currently employed as the Executive and Development Assistant at STREB in Brooklyn. Shannon also teachers at Vicki’s Dance Studio in Rockland County where she teaches children of all ages and levels in multiple styles of dance and gymnastics. In 2016 Shannon has taken her goal of helping individuals gain access to all forms of art by creating eSKay Arts Collective with dancer and performer Kelly Flansburg. A choreographer, Shannon seeks to create movement which brings awareness and a safe environment difficult topics in hopes to begin conversations that are often left unspoken.',
+      bio: 'is a dance educator and arts administrator who graduated from Russell Sage College with a BA in health science and dance and her MPA from Mercy College. Shannon is currently employed as the Company Manager  at STREB in Williamsburg, Brooklyn. Shannon has also taught dance to children and adults throughout the tri-state region. In 2016 Shannon has taken her goal of helping individuals gain access to all forms of art by creating eSKay Arts Collective with dancer and performer Kelly Flansburg. A choreographer, Shannon seeks to create movement which brings awareness and a safe environment difficult topics in hopes to begin conversations that are often left unspoken.',
       links: '',
       image: 'img/Shannon-1010.jpg'
     }, {
@@ -25,41 +25,17 @@ module.exports = {
       links: '',
       image: 'img/JenniferJackson.jpg'
     }, {
-      name: 'Carey Clayton',
-      title: 'Musician',
-      bio: 'is a sought after guitarist, composer, and producer in New York City. Growing up in LA, Carey was initially drawn to the guitar hearing the music of Jimi Hendrix. Expanding upon his foundation of Rock and Blues, Carey went on to complete the Studio Music & Jazz program at the University of Miami. Upon moving to NYC, Carey found himself playing in a wide variety of groups ranging from Rock and Jazz, to R&B and Gospel. Carey was part of the jazz/rock trio Carbon Mirage 2014-2016 in which he helped write, produce, an and perform three albums; Carbon Mirage, and The Peak, and Cloud Hatch. In 2014, he also wrote and produced an album with the ambient folk duo Cosmos & Cyrillus, and a solo record entitled Oak. In 2015, Carey produced the R&B artist Stephanie Rivers album Time Tells A Lie, and released a three-part ambient series entitled Invisible Film. Carey has produced music for numerous artists including, Mary Akpa, Emily Thomas, Kwame Darko, Ian Abel, Stephanie Rivers, A is for Atom, Teena May, and many others. Carey currently tours with synth pop band Great Good Fine Ok, and folk/rock/world outfit David Wax Museum. Carey continues to be an active freelance live and session guitarist. Carey also produces music under the name AFTERLYTE.',
-      links: '',
-      image: 'img/carey.jpeg'
-    }, {
       name: 'Laura Natario',
       title: 'Dancer',
       bio: 'began her formal dance training at The Massachusetts Academy of Ballet under the direction of Rose and Charles Flachs while she also attended the Pioneer Valley Performing Arts Charter Public High School, training under the direction of Jodi Falk. She received her bachelors of the fine arts degree from the University of Massachusetts, Amherst on a Chancellor’s Talent Scholarship. She recently completed a master of fine arts degree at Saint Mary’s College of California. She currently performs, teaches ballet and contemporary dance, and choreographs within the greater New York City area. She first performed with EsKay Artistic Collective as a 2018 summer guest artist. This is her first season as an EsKay company member.',
       links: '',
       image: 'img/lauraNatario.jpeg'
-    }, {
-      name: 'Carina Schiccitano',
-      title: 'Dancer',
-      bio: 'has been dancing for as long as she’s been able to move. From a young age growing up in Syracuse, NY she has had a flourish for movement and creative expression. She graduated in 2014 with her Bachelor of Fine Arts in dance from George Mason University receiving an Outstanding Achievement in the Major award. She relocated to Manhattan after graduation and has been pursuing a free-lance performance career since. She is currently a member of Brooklyn based company ChloeIsabow+ Co, but enjoys working with different artists and experiencing varied choreographic visions and styles. She is a certified yoga teacher and is thrilled to have a parallel career to her dancing within the realm of movement. Carina is excited for what’s to come with eSKay Arts Collective!',
-      links: '',
-      image: 'img/Carina.png'
-    }, {
-      name: 'Caitlin Burns',
-      title: 'Dancer',
-      bio: 'is a contemporary dancer and musical theatre performer hailing from Los Angeles. In New York City, she collaborated in several phases of the 92nd Street Y Music Theatre Development Lab, has performed at the Ailey Citigroup Theatre under the direction of Kristin Sudeikis, and is currently a soloist withOctopodes Dance Company. Previously, she has performed with San Francisco Bay Area companies Santa Clara Dance Coalition and for change dance collective. Caitlin holds a B.S. in Pyschology and a B.A. in Dance from Santa Clara University.',
-      links: '',
-      image: 'img/CaitlinBurns.jpg'
-    }, {
+    },{
       name: 'Jen Silver',
       title: 'Dancer',
       bio: "received her Master's Degree in Dance Education with PK-12 Dance Teacher Certification (NJ CEAS) from the Graduate School of Education at Rutgers University. Prior to this, Jen graduated Summa Cum Laude with her B.F.A. in Dance Performance from Mason Gross School of the Arts, Rutgers University. Professionally, Jen has danced with Marked Dance Project, Humanistics Dance Company, eSKay Arts Collective, Kaley Pruitt Dance, and Erin Pryor Dance Theatre. She has also performed works by choreographers including Jodi Melnick, Joe Goode, Randy James, John Evans, Keith A. Thompson, and Kim Gibilisco and has studied under the instruction of Carolyn Dorfman, Tiffany Mills, David Parker, Roni Koresh, David Parsons, Claudia Lavista, and Omar Carrum. Jen is excited to perform in her first season with eSKay Arts Collective!",
       links: '',
       image: 'img/JenSilver.jpg'
-    }, {
-      name: 'Emma Colton',
-      title: 'Dancer/Choreographer',
-      bio: 'began dancing when she was two years old. She has performed pieces of all dance disciplines such as jazz, tap, ballet, modern, hip-hop, contemporary and lyrical. During her four years at Bucknell University, she was fortunate to study and perform pieces choreographed by artists such as Becky Valls, Beth Iguchi, Diane Coburn Bruning, Kelly and Mollye Maxner and Marie Canal. Since moving to New York City, Emma has worked with Amy Marshall, Doug Gillespie and has been selected for various art films. She has trained with Alvin Ailey and is also currently a scholarship student at Jennifer Muller the Works. Emma is delighted to be a new member of eSKay Arts Collective.',
-      links: '',
-      image: 'img/Emma.JPG'
     }, {
       name: 'Marissa Graham',
       title: 'Dancer/Choreographer',
@@ -72,6 +48,12 @@ module.exports = {
       bio: 'Originally from Philadelphia, Pennsylvania, Becca began her dance training under the direction of Scott Jovovich and Liz Fitchett Jovovich. She graduated from DeSales University in 2017 with a B.A in Dance and a Business minor. During her collegiate experience, she had the opportunity to perform pieces choreographed by artists such as Doris Humphrey (staging by Dr. Jessica Van Oort), Tara Madsen Robbins, Paul Ocampo, Jeff Shade, Jessica Chen, and Michio Ito (staging by Kumiko and Imura). Recently relocating to the NYC area, Becca could not be more excited to be a new member of eSKay Arts Collective.',
       links: '',
       image: 'img/Becca.jpg'
+    }, {
+      name: 'Danielle Mumpower',
+      title: 'Dancer/Choreographer',
+      bio: 'was last seen at the Southern Vermont Dance Festival in Brattleboro, VT with EsKay Arts Collective, in Jen Jackson\'s "Unchecked Baggage" and in Fall 2018 in Cara Harker\'s From the Sublime to the Ridiculous at the InFringe Festival in New Orleans, LA. She also premiered a new work as a choreographer entitled “Double Tap”, a cheeky take on addiction to technology. A resident of NYC for six years, she originally hails from Bristol, VA/TN and celebrated 26 years of dance training this year. She studied at ETSU with a B.A. In theatre and minor in dance, training under the incomparable Cara Harker pushing her to achieve the Judith Woodruff Award for Excellence in Dance. Since moving to NYC, Danielle has performed in venues throughout the city and East coast including a sold out run of Roadkill at IRT Theater with choreographers and creators Lauren Lasorda and Tali Custer, and the premier of Raiz with Silva Dance Company at the Martha Graham Theatre. She is a member of Improbable Stage, and House of the Roses, A Volunteer Dance Company. Most days you can find Danielle in the ballet studio, she is currently a lead teacher at Dance with Miss Rachel in Tribeca. @danielle_mumpower',
+      links: '',
+      image: 'img/DanielleMumpower.jpg'
     }
   ]
 };
