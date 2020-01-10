@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/artists.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/artists.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/home.handlebars" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,9 @@
       <workItem from="1549294412467" duration="330000" />
       <workItem from="1549898356347" duration="654000" />
       <workItem from="1577398128652" duration="1083000" />
-      <workItem from="1577979031631" duration="673000" />
+      <workItem from="1577979031631" duration="785000" />
+      <workItem from="1577980112529" duration="157000" />
+      <workItem from="1578674112720" duration="225000" />
     </task>
     <servers />
   </component>
